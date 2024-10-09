@@ -1,0 +1,108 @@
+body {
+    margin: 15px;
+    padding: 0;
+  }
+  
+  .container {
+    margin: auto;
+    width: 65vw;
+    /* background-color: rgb(172, 162, 162); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 100%;
+    height: 15%;
+    background-color: #3572d5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    color: white;
+    margin: auto auto;
+  }
+  
+  .main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #133e99;
+  }
+  
+  nav {
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  .menu_link {
+    display: block;
+    background-color: #064bb9;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    width: 6rem;
+    text-align: center;
+    padding: 0.3rem;
+  }
+  
+  .menu_link:hover {
+    color: rgb(255, 255, 255);
+    background-color: #491db0;
+  }
+  
+  .przyciski {
+    padding: 0;
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .zdj {
+    width: 100%;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .text1 {
+    margin: 2.5px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  .text1 article {
+    margin: 5px;
+    text-align: left;
+    padding: 0.3rem;
+  }
+  
+  .text2 {
+    width: 30%;
+    border: 2px solid black;
+    flex-grow: 1;
+    margin: 0.2rem;
+    text-align: center;
+  }
+  
+  .text2 article {
+    margin: 5px;
+    text-align: left;
+    padding: 0.3rem;
+  }
+  
+  

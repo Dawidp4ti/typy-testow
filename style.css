@@ -105,4 +105,32 @@ body {
     padding: 0.3rem;
   }
   
+  .text2 a {
+    color: #117594;
+    text-align: right;
+    font-size: 1.05rem;
+  }
   
+  .end {
+    width: 100%;
+    background-color: #3572d5;
+    color: white;
+    height: 3rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .typy {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+
+  .typy ul {
+    margin: 10px 0;
+  }
+
+  strong {
+    color: #0b794f;
+    font-weight: bold;
+  }
